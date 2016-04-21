@@ -34,7 +34,7 @@ var $confirmPass = $('#confirm_password');
 	}
 
 
-	$password.focus(passwordEvent).keyup(passwordEvent).focus(confirmPassword).keydown(confirmPassword);
+	$password.focus(passwordEvent).keyup(passwordEvent).focus(confirmPassword).keyup(confirmPassword);
 	//When event happens on confirmation input.
 	$confirmPass.focus(confirmPassword).keyup(confirmPassword);
 
